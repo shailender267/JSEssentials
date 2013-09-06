@@ -1,4 +1,0 @@
-JSEssentials
-============
-
-JavaScrip tEssentials Training
