@@ -1,0 +1,106 @@
+/* CSS Document */
+
+body{
+	font-size:13px;
+	font-family:"GeoSlab703 Md BT";
+	color:#fff;
+}
+a{
+	text-decoration:none;
+}
+.wrapper{
+	margin:0px auto;
+	width:1024px;
+}
+.txt-center{
+	text-align:center;
+	padding: 305px 0px
+}
+.landing{
+	background-color: #1B1742;
+	/*position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;*/
+}
+.txt-center h1{
+	font-size: 74px;
+	font-weight: bold;
+	text-align: center;
+}
+.txt-center p{
+	width: 600px;
+	margin: 25px auto;
+}
+
+/*main-nav*/
+#main-nav{
+	float:left;
+	width:100%;
+	background-color:green;
+}
+#main-nav ul li{
+	float:left;	
+}
+#main-nav ul li a:hover{
+	background-color:#6EF062;
+}
+#main-nav ul li a{	
+	color:#fff;	
+	font-size:18px;
+	padding:20px 30px;
+	display:block;
+}
+.side-bar{
+	display: block;
+	position: absolute;
+	top: 30px;
+	left: 175px;
+}
+.side-bar ul li a:hover,
+.active  {
+	background-color:#c0c0c0;
+}
+.side-bar ul li a{
+	font-size:16px;
+	display:block;
+	padding:15px;
+}
+.container{
+	color: #000;
+	padding: 10px;
+	height: 975px;
+	overflow-style:marquee-block;
+	position: absolute;
+	right: 170px;
+	top: 80px;
+}
+.description{
+	margin:40px 0px;
+}
+.description h2{
+	font-size: 24px;
+	margin: 20px 0px;
+}
+.description p{
+	text-align: justify;
+	font-size: 14px;
+	line-height: 20px;
+	width: 720px;
+}
+.sticky{
+	position:fixed;
+	top:0;
+	z-index:9999;
+}
+
+#actualPage{
+	position:relative;
+	float: left;
+	width: 100%;
+	display:block;
+}
+#connectedSystems{
+	margin-top:50px;
+}
