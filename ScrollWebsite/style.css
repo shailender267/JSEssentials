@@ -14,7 +14,7 @@ a{
 }
 .txt-center{
 	text-align:center;
-	padding: 305px 0px
+	padding: 250px 0px
 }
 .landing{
 	background-color: #1B1742;
@@ -43,10 +43,12 @@ a{
 #main-nav ul li{
 	float:left;	
 }
-#main-nav ul li a:hover{
+#main-nav ul li a:hover,
+#main-nav ul li button:hover,
+.active{
 	background-color:#6EF062;
 }
-#main-nav ul li a{	
+#main-nav ul li a, #main-nav ul li button{	
 	color:#fff;	
 	font-size:18px;
 	padding:20px 30px;
@@ -58,8 +60,7 @@ a{
 	top: 30px;
 	left: 175px;
 }
-.side-bar ul li a:hover,
-.active  {
+.side-bar ul li a:hover{
 	background-color:#c0c0c0;
 }
 .side-bar ul li a{
@@ -95,12 +96,34 @@ a{
 	z-index:9999;
 }
 
-#actualPage{
+.main-content{
 	position:relative;
 	float: left;
 	width: 100%;
 	display:block;
+	color:#000;
 }
 #connectedSystems{
 	margin-top:50px;
+}
+.copy{
+	font-size:155px; 
+	color:#fff;
+	background: none;
+	border: none;
+}
+
+.main-content .wrapper h2{
+	font-size: 38px;
+	margin: 60px 30px 30px;
+}
+.main-content .wrapper p {
+	margin: 30px;
+	font-size: 18px;
+	line-height: 25px;
+	text-align: justify;
+}
+button{
+	background:none;
+	border:none;
 }
